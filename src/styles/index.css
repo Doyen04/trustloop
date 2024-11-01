@@ -1,0 +1,24 @@
+:root {
+    --header-height: 70px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url('../assets/font/Staatliches-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CPMono';
+    src: url('../assets/font/CPMono_v07Black.ttf.ttf') format('truetype');
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+}

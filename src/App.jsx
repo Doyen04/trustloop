@@ -1,12 +1,14 @@
+import './assets/font/Staatliches-Regular.ttf'
+import './assets/font/CPMono_v07Black.ttf.woff'
 
-import './App.css'
+import Header from './component/header'
 
 function App() {
 
     return (
-        <div>
-
-        </div>
+        <>
+            <Header />
+        </>
     )
 }
 

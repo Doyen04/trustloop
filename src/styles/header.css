@@ -1,0 +1,96 @@
+
+.header{
+    width: 100%;
+    height: var(--header-height);
+    background-color: #F6F6F6;
+    font-family: 'Staatliches', 'CPMono';
+    padding:0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* background-color: gold; */
+}
+.logo-container{
+    font-size: 1.5em;
+    width: 120px;
+    /* background-color: red; */
+}
+.navbar{
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    font-size: 1.7em;
+    top: var(--header-height);
+    border-bottom: rgb(161, 158, 158) solid 1px;
+}
+.shopping-icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-button-container{
+    display: none;
+}
+@media (min-width: 765px) {
+    .navbar{
+        /* background-color: red;  */
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 45%;
+        top: 0;
+        border: none;
+        font-size: 1.3em;
+        color: #737373 ;
+    }
+    .shopping-icons{
+        display: none;
+    }
+    .header-button-container{
+        height: 100%;
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+    .header-button-container>div{
+        font-family: 'Staatliches', 'CPMono';
+        color:#23A6F0;
+    }
+    .header-button-container>button{
+        height: 80%;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #23A6F0;
+        color: white;
+    }
+}
+@media (min-width:800px) and (max-width:1100px) {
+    .header-button-container{
+        width: 20%;
+    }
+    .header-button-container>div{
+        font-family: 'Staatliches', 'CPMono';
+        color:#23A6F0;
+    }
+    .header-button-container>button{
+        font-size: 0.1em;
+        height: 60%;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #23A6F0;
+        color: white;
+    }
+}
