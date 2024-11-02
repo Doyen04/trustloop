@@ -3,6 +3,7 @@ import '../styles/header.css'
 import shoppingCartIcon from '../assets/svg/shopping.svg'
 import burgerIcon from '../assets/svg/burger.svg'
 import searchIcon from '../assets/svg/search.svg'
+import arrow from '../assets/svg/arrow-right.svg'
 
 function Header() {
     const navLink = ['Home', 'Product', 'Pricing', 'About']
@@ -21,7 +22,7 @@ function Header() {
             </div>
             <div className='header-button-container'>
                 <div className='login'>login</div>
-                <button> Become a Member  @</button>
+                <button> Become a Member  <img src={arrow}/></button>
             </div>
         </div>
     )
