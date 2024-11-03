@@ -4,7 +4,7 @@
     height: var(--header-height);
     background-color: #F6F6F6;
     font-family: 'Staatliches', 'CPMono';
-    padding:0 5vw;
+    padding:0 10vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
