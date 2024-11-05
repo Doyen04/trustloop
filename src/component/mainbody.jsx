@@ -11,9 +11,9 @@ function mainbody() {
                     <span>Assistance</span>
                 </div>
                 <div className="sub-description">
-                    <span>We know how large</span> 
-                    <span>objects will act, but things</span> 
-                    <span>on a small scale</span>
+                    <pre>We know how large </pre> 
+                    <pre>objects will act, but things </pre> 
+                    <pre>on a small scale</pre>
                 </div>
                 <div className="main-button-container">
                     <button className='get-quote-button'>
