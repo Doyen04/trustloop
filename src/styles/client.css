@@ -1,7 +1,7 @@
 
 .clients{
     width: 100%;
-
+    padding-top: 20px;
 }
 .clients-text-description{
     width: 100%;
@@ -18,14 +18,49 @@
     width: 50%;
     text-align: center;
     color: grey;
+    padding-bottom: 15px;
 }
 .clients-list{
     padding: 5px 10vw;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
 }
 .customers-review{
-    width: 100%;
-    /* background-color: red; */
+    width: 300px;
+    background-color: white;
     height: 200px;
-    border: solid;
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 5px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.customers-review > pre{
+    color:#737373;
+}
+.customer-profile-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.name{
+    color: #23A6F0;
+}
+
+@media (min-width: 768px) {
+    .clients-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .customers-review{
+        padding: 5px 25px;
+        width: 280px;
+    }
 }

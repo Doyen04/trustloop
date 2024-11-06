@@ -1,7 +1,10 @@
 
 import '../styles/client.css'
 
-import star from '../assets/svg/star.svg'
+import star from '../assets/svg/yellowstar.svg'
+import halfstar from '../assets/svg/half-filled-star.svg'
+import maleprofile from '../assets/img/male-profile.png'
+import femaleprofile from '../assets/img/female-profile.png'
 
 function Clients() {
     return (
@@ -20,7 +23,7 @@ function Clients() {
                         <img src={star} alt="" />
                         <img src={star} alt="" />
                         <img src={star} alt="" />
-                        <img src={star} alt="" />
+                        <img src={halfstar} alt="" />
                     </div>
                     <pre>
                         TrustLoop helps you see how many <br />
@@ -28,10 +31,31 @@ function Clients() {
                         reach your financial goal <br />
                     </pre>
                     <div className="customer-profile-container">
-                        <img src="" alt="" />
+                        <img src={maleprofile} alt="" />
                         <div className="customer-name-container">
-                            <div className="name"></div>
-                            <div className="job"></div>
+                            <div className="name">Regina Miles</div>
+                            <div className="job">Designer</div>
+                        </div>
+                    </div>
+                </div>
+                <div className='customers-review' >
+                    <div className="star-container">
+                        <img src={star} alt="" />
+                        <img src={star} alt="" />
+                        <img src={star} alt="" />
+                        <img src={halfstar} alt="" />
+                        <img src={halfstar} alt="" />
+                    </div>
+                    <pre>
+                        TrustLoop helps you see how many <br />
+                        more days you need to work to <br />
+                        reach your financial goal <br />
+                    </pre>
+                    <div className="customer-profile-container">
+                        <img src={femaleprofile} alt="" />
+                        <div className="customer-name-container">
+                            <div className="name">Regina Miles</div>
+                            <div className="job">Designer</div>
                         </div>
                     </div>
                 </div>
@@ -41,7 +65,7 @@ function Clients() {
                         <img src={star} alt="" />
                         <img src={star} alt="" />
                         <img src={star} alt="" />
-                        <img src={star} alt="" />
+                        <img src={halfstar} alt="" />
                     </div>
                     <pre>
                         TrustLoop helps you see how many <br />
@@ -49,31 +73,10 @@ function Clients() {
                         reach your financial goal <br />
                     </pre>
                     <div className="customer-profile-container">
-                        <img src="" alt="" />
+                        <img src={maleprofile} alt="" />
                         <div className="customer-name-container">
-                            <div className="name"></div>
-                            <div className="job"></div>
-                        </div>
-                    </div>
-                </div>
-                <div className='customers-review' >
-                    <div className="star-container">
-                        <img src={star} alt="" />
-                        <img src={star} alt="" />
-                        <img src={star} alt="" />
-                        <img src={star} alt="" />
-                        <img src={star} alt="" />
-                    </div>
-                    <pre>
-                        TrustLoop helps you see how many <br />
-                        more days you need to work to <br />
-                        reach your financial goal <br />
-                    </pre>
-                    <div className="customer-profile-container">
-                        <img src="" alt="" />
-                        <div className="customer-name-container">
-                            <div className="name"></div>
-                            <div className="job"></div>
+                            <div className="name">Regina Miles</div>
+                            <div className="job">Designer</div>
                         </div>
                     </div>
                 </div>
