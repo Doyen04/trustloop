@@ -43,6 +43,27 @@ function Clients() {
                         <img src={star} alt="" />
                         <img src={star} alt="" />
                         <img src={star} alt="" />
+                        <img src={star} alt="" />
+                        <img src={halfstar} alt="" />
+                    </div>
+                    <pre>
+                        TrustLoop helps you see how many <br />
+                        more days you need to work to <br />
+                        reach your financial goal <br />
+                    </pre>
+                    <div className="customer-profile-container">
+                        <img src={maleprofile} alt="" />
+                        <div className="customer-name-container">
+                            <div className="name">Regina Miles</div>
+                            <div className="job">Designer</div>
+                        </div>
+                    </div>
+                </div>
+                <div className='customers-review' >
+                    <div className="star-container">
+                        <img src={star} alt="" />
+                        <img src={star} alt="" />
+                        <img src={star} alt="" />
                         <img src={halfstar} alt="" />
                         <img src={halfstar} alt="" />
                     </div>

@@ -33,7 +33,7 @@
     width: 300px;
     background-color: white;
     height: 200px;
-    border: solid grey 1px;
+    border: solid #DEDEDE 1px;
     border-radius: 5px;
     padding: 5px 10%;
     display: flex;
