@@ -37,10 +37,20 @@
     border-radius: 5px;
 }
 @media (min-width: 768px) {
+    .strategy > h1{
+        width: 350px;
+        letter-spacing: 0.4px;
+        font-size: 2.5em;
+    }
+    .strategy > p{
+        width: 300px;
+        letter-spacing: 0.3px;
+    }
     .services-tab{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
+        padding: 0 7vw;
     }
 }
