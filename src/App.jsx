@@ -6,6 +6,7 @@ import Mainbody from './component/mainbody'
 import Clients from './component/client'
 import Strategy from './component/strategy'
 import Pricing from './component/pricing'
+import Subscribe from './component/subscribe'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
             <Strategy/>
             <Clients/>
             <Pricing/>
+            <Subscribe/>
         </>
     )
 }
