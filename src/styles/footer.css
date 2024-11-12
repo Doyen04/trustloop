@@ -1,0 +1,34 @@
+.footer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.get-in-touch,.company-info,.features,.resources{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 5px 7vw;
+}
+@media (min-width:768px) {
+    .footer{
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .get-in-touch{
+        width: 30%;
+    }
+    .company-info,.features,.resources{
+        width: 20%;
+        /* background-color: red; */
+        align-items: flex-start;
+        padding: 0;
+    }
+}

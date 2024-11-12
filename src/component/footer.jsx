@@ -5,8 +5,9 @@ function footer() {
     return (
         <div className='footer'>
             <div className="get-in-touch">
+                <h1>Get In Touch</h1>
                 <div className='get-desc'>
-
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat doloremque ut delectus 
                 </div>
                 <div className='social-media-icon'>
 
