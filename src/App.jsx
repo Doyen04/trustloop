@@ -7,6 +7,7 @@ import Clients from './component/client'
 import Strategy from './component/strategy'
 import Pricing from './component/pricing'
 import Subscribe from './component/subscribe'
+import Footer from './component/footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Clients/>
             <Pricing/>
             <Subscribe/>
+            <Footer/>
         </>
     )
 }
