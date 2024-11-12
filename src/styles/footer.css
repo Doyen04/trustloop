@@ -21,9 +21,11 @@
         flex-direction: row;
         justify-content: flex-start;
         gap: 20px;
+        padding: 10px 10vw;
     }
     .get-in-touch{
         width: 30%;
+        padding: 0;
     }
     .company-info,.features,.resources{
         width: 20%;
